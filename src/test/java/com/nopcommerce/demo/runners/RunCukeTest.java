@@ -20,7 +20,7 @@ public class RunCukeTest extends AbstractTestNGCucumberTests {
         public final static ThreadLocal<String> BROWSER= new ThreadLocal<>();
 
     @BeforeMethod
-    @Parameters({"browser"})
+    @Parameters({"browser"}) //for cross browser testing run from testng.xml
     public void defineBrowser(@Optional("chrome") String browser) {
             System.out.println("Browser is: "+ browser);
             RunCukeTest.BROWSER.set(browser);
