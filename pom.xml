@@ -93,7 +93,7 @@
                               <testFailureIgnore>false</testFailureIgnore>
                               <!--for running from command line-->
                               <suiteXmlFiles>
-                                  <suiteXmlFile>src/test/java/com/nopcommerce/demo/runner/testng.xml</suiteXmlFile>
+                                  <suiteXmlFile>src/test/java/com/nopcommerce/demo/runners/testng.xml</suiteXmlFile>
                               </suiteXmlFiles>
           <argLine>--add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
           </argLine>
